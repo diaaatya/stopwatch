@@ -1,0 +1,24 @@
+#count{
+width: 320px;
+height:320px;
+
+margin:  100px auto;
+border-style: solid;
+border-color:  #581845;
+border-radius: 170px;
+border-bottom-width: 0.5px;
+
+
+
+}
+
+.tiktok{
+background:green;
+background-image:
+        linear-gradient(97.2deg, transparent 50%, white 50%),
+        linear-gradient(93.6deg, transparent 50%, red 50%),
+        linear-gradient(90deg, white 50%, transparent 50%);
+
+}
+
+}

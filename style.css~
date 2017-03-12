@@ -1,4 +1,16 @@
+#count{
+width: 320px;
+height:320px;
+background: red;
+margin:  100px auto;
+border-style: solid;
+border-color:  #581845;
+border-radius: 170px;
+border-bottom-width: 0.5px;
+background-color: green;
 
+
+}
 
 
 

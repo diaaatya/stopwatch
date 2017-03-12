@@ -11,7 +11,7 @@
 </ul> 
 </div>
 </div>
-<div id="count" class="tiktok">
+<div id="count">
 <div id="circ" > 
 <div class="timer">
 <span id="mins" class="mins">000</span>
