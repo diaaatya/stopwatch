@@ -29,7 +29,6 @@ window.onload = function () {
   }
   buttonStop.onclick = function() {
   clearInterval(Interval);
-
   runing= false;
   }
   buttonRest.onclick = function  (){

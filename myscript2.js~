@@ -18,7 +18,7 @@ window.onload = function () {
   buttonStart.onclick = function() {   
   if (runing== false) {
   Interval = setInterval(startTimer, 10);
-  Intervals= setInterval(startticks, 100);  
+ 
   runing= true;  
   }
   }
