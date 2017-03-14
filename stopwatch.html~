@@ -1,7 +1,11 @@
 <html>
+<<<<<<< HEAD
 <link rel="stylesheet" href="tiktok.css" />
 <link rel="stylesheet" href="style.css" />
 
+=======
+<link rel="stylesheet" href="style.css" />
+>>>>>>> master
 <script src="myscript2.js"></script> 
 
 <body >
@@ -11,7 +15,10 @@
 </ul> 
 </div>
 </div>
+<<<<<<< HEAD
 <div id="count" class="tiktok">
+=======
+>>>>>>> master
 <div id="circ" > 
 <div class="timer">
 <span id="mins" class="mins">000</span>
@@ -21,7 +28,10 @@
 <span id="tens" class="msec">00</span>
 </div>
 </div>
+<<<<<<< HEAD
 </div>
+=======
+>>>>>>> master
 <div class="control">
 <button  class="click"id="button-start">Start</button>
 <button  class="click"id="button-stop">Stop</button>
