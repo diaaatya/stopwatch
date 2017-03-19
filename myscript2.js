@@ -3,10 +3,6 @@ window.onload = function () {
   var lap = 1;
   var seconds = 00; 
   var tens = 00; 
-<<<<<<< HEAD
-
-=======
->>>>>>> 5bd52881ab33515fcbf068dfbb3e6d0c2d158530
   var mins = 00;
   var runing= false;
   var results = document.getElementById("results");
@@ -17,17 +13,10 @@ window.onload = function () {
   var buttonStop = document.getElementById('button-stop');
   var buttonRest = document.getElementById('button-rst');
   var buttonlap = document.getElementById('button-lap');
-<<<<<<< HEAD
   var ticks = document.getElementById('count');
   buttonStart.onclick = function() {   
   if (runing== false) {
   Interval = setInterval(startTimer, 10);
- 
-=======
-  buttonStart.onclick = function() {   
-  if (runing== false) {
-  Interval = setInterval(startTimer, 10);
->>>>>>> 5bd52881ab33515fcbf068dfbb3e6d0c2d158530
   runing= true;  
   }
   }
@@ -37,11 +26,7 @@ window.onload = function () {
         results.removeChild(results.lastChild);
   }
   buttonStop.onclick = function() {
-<<<<<<< HEAD
-  clearInterval(Interval);
-=======
   clearInterval(Interval)
->>>>>>> 5bd52881ab33515fcbf068dfbb3e6d0c2d158530
   runing= false;
   }
   buttonRest.onclick = function  (){
@@ -71,12 +56,8 @@ window.onload = function () {
    }
     function startTimer () {
     tens++; 
-<<<<<<< HEAD
     ticks.className= "tiktok"+tens;
-       if (tens<9) {
-=======
     if (tens<9) {
->>>>>>> 5bd52881ab33515fcbf068dfbb3e6d0c2d158530
     appendTens.innerHTML = "0" + tens;
 	 }   
 	 if (tens>9) {
@@ -107,8 +88,5 @@ window.onload = function () {
         appendmins.innerHTML =  mins;		   
     }      
  }
-<<<<<<< HEAD
- 
-=======
->>>>>>> 5bd52881ab33515fcbf068dfbb3e6d0c2d158530
+
  }

@@ -3,7 +3,6 @@ window.onload = function () {
   var lap = 1;
   var seconds = 00; 
   var tens = 00; 
-
   var mins = 00;
   var runing= false;
   var results = document.getElementById("results");
@@ -18,7 +17,6 @@ window.onload = function () {
   buttonStart.onclick = function() {   
   if (runing== false) {
   Interval = setInterval(startTimer, 10);
- 
   runing= true;  
   }
   }
@@ -28,8 +26,7 @@ window.onload = function () {
         results.removeChild(results.lastChild);
   }
   buttonStop.onclick = function() {
-  clearInterval(Interval);
-
+  clearInterval(Interval)
   runing= false;
   }
   buttonRest.onclick = function  (){
@@ -60,7 +57,7 @@ window.onload = function () {
     function startTimer () {
     tens++; 
     ticks.className= "tiktok"+tens;
-       if (tens<9) {
+    if (tens<9) {
     appendTens.innerHTML = "0" + tens;
 	 }   
 	 if (tens>9) {
@@ -91,5 +88,5 @@ window.onload = function () {
         appendmins.innerHTML =  mins;		   
     }      
  }
- 
+
  }

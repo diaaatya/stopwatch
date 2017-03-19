@@ -21,15 +21,15 @@ border-bottom-width: 0.5px;
 }
 .tiktok1 {
     background-image:
-        linear-gradient( 97.2 deg, transparent 50%, white 50%),
-        linear-gradient( 93deg deg, transparent 50%, red 50%),
+        linear-gradient( 97.2deg, transparent 50%, white 50%),
+        linear-gradient( 93deg, transparent 50%, red 50%),
         linear-gradient(90deg, white 50%, transparent 50%);
 }
 .tiktok2 {
 		background-color: green;
     background-image:
-        linear-gradient( 104.4 deg, transparent 50%, white 50%),
-        linear-gradient( 93deg deg, transparent 50%, red 50%),
+        linear-gradient( 104.4deg, transparent 50%, white 50%),
+        linear-gradient( 93deg, transparent 50%, red 50%),
         linear-gradient(90deg, white 50%, transparent 50%);
 }
 .tiktok3 {
